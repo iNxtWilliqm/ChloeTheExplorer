@@ -1,0 +1,25 @@
+// Players
+BITMAP,chloe,chloe.png
+BITMAP,bullet,bullet.png
+
+// Monsters
+BITMAP,pig,pig.png
+BITMAP,pig_invert,pig_invert.png
+
+// Loots
+BITMAP,loot_xp,loot_xp.png
+BITMAP,loot_bullet,loot_bullet.png
+BITMAP,loot_coin,loot_coin.png
+BITMAP,loot_heart,loot_heart.png
+
+// Sounds
+SOUND,pig_dead,pig_dead.ogg
+SOUND,shoot,shoot.ogg
+SOUND,loot_bullet,loot_bullet.ogg
+SOUND,loot_coin,loot_coin.ogg
+SOUND,loot_heart,loot_heart.ogg
+SOUND,loot_bullet,loot_bullet.ogg
+SOUND,loot_xp,loot_xp.ogg
+
+// Bgm
+MUSIC,bgm,bgm.mp3
