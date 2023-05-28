@@ -116,8 +116,6 @@ void handle_input(player &player, bullet &bullet) {
 			sprite_set_rotation(bullet.bullet_sprite, rotation);
 			sprite_set_velocity(bullet.bullet_sprite, angle);
 			sprite_set_speed(bullet.bullet_sprite, BULLET_SPEED);
-
-			play_sound_effect(sound_effect_named("shoot"));
 		}
 	}
 
