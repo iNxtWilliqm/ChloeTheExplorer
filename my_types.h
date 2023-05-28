@@ -51,7 +51,6 @@ struct monster {
 };
 
 struct game {
-	bool is_run;
 	vector<monster> monsters;
 	vector<loot> loots;
 };
