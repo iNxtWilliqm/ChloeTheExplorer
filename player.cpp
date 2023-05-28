@@ -33,10 +33,10 @@ void draw_player(const player &player) {
 }
 
 bool is_on_ground(const player &player, const game &game) {
-    float playerBottomY = sprite_y(player.player_sprite) + sprite_height(player.player_sprite);
-    float groundTopY = screen_height() / 1.5;
+	float playerBottomY = sprite_y(player.player_sprite) + sprite_height(player.player_sprite);
+	float groundTopY = screen_height() / 1.5;
 
-    return playerBottomY >= groundTopY;
+	return playerBottomY >= groundTopY;
 }
 
 void update_player(player &player, const game &game) {
@@ -72,8 +72,8 @@ void update_player(player &player, const game &game) {
 
 	if (is_on_ground(player, game)) {
 		player.on_ground = true;
-        sprite_set_dy(player.player_sprite, 0);
-    }
+		sprite_set_dy(player.player_sprite, 0);
+	}
 
 	if (player.xp >= 100) {
 		player.xp = 0;

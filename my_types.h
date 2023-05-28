@@ -7,9 +7,9 @@
 using namespace std;
 
 struct bullet {
-    double x, y;
-    bool is_shot;
-    sprite bullet_sprite;
+	double x, y;
+	bool is_shot;
+	sprite bullet_sprite;
 };
 
 struct player {
@@ -17,25 +17,25 @@ struct player {
 	double y_velocity;
 	bool on_ground;
 	int health;
-    int kill;
-    int coin;
-    int ammo;
-    int level;
-    int xp;
-    vector<bullet> bullets;
+	int kill;
+	int coin;
+	int ammo;
+	int level;
+	int xp;
+	vector<bullet> bullets;
 	sprite player_sprite;
 };
 
 enum loot_type {
-    BULLET,
-    COIN,
-    HEART,
-    XP
+	BULLET,
+	COIN,
+	HEART,
+	XP
 };
 
 struct loot {
-    sprite loot_sprite;
-    loot_type type;
+	sprite loot_sprite;
+	loot_type type;
 };
 
 enum monster_type {
@@ -45,18 +45,15 @@ enum monster_type {
 
 struct monster {
 	double x, y;
-	double y_velocity;
-	bool on_ground;
-    int health;
+	int health;
 	sprite monster_sprite;
 	monster_type type;
 };
 
 struct game {
-    int number;
-    bool is_run;
-    vector<monster> monsters;
-    vector<loot> loots;
+	bool is_run;
+	vector<monster> monsters;
+	vector<loot> loots;
 };
 
 #endif

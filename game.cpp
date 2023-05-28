@@ -24,16 +24,16 @@ void draw_ground(const game &game) {
 }
 
 void fill_random_circle() {
-    int x = rand() % screen_width();    // Generate random x-coordinate
-    int y = rand() % screen_height();   // Generate random y-coordinate
+	int x = rand() % screen_width();    // Generate random x-coordinate
+	int y = rand() % screen_height();   // Generate random y-coordinate
 
-    fill_circle(COLOR_YELLOW, x, y, 1, option_to_screen());
+	fill_circle(COLOR_YELLOW, x, y, 1, option_to_screen());
 }
 
 void draw_background() {
 	fill_rectangle(COLOR_DARK_SLATE_BLUE, 0, 0, screen_width(), screen_height() / 1.5, option_to_screen());
 	// Adding noises textures to background
-    for (int i = 0; i < 5; i++) {
-        fill_random_circle();   
-    }
+	for (int i = 0; i < 5; i++) {
+		fill_random_circle();   
+	}
 }

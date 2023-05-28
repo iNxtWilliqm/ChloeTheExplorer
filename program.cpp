@@ -12,58 +12,58 @@ void load_resources() {
 }
 
 int main() {
-    open_window("Chloe The Explorer", 1000, 500);
-    load_resources();
+	open_window("Chloe The Explorer", 1000, 500);
+	load_resources();
 
-    game game;
-    player player;
-    bullet bullet;
-    monster monster;
+	game game;
+	player player;
+	bullet bullet;
+	monster monster;
 
-    player = new_player();
+	player = new_player();
 
-    bool game_over = false; // Add a flag to track game over state
+	bool game_over = false; // Add a flag to track game over state
 
-    while (!quit_requested()) {
-        process_events();
-        
-        if (!game_over) {
-            // Handle input to adjust player movement
-            handle_input(player, bullet);
+	while (!quit_requested()) {
+		process_events();
+		
+		if (!game_over) {
+			// Handle input to adjust player movement
+			handle_input(player, bullet);
 
-            clear_screen();
+			clear_screen();
 
-            // Player mechanics and camera movement
-            update_player(player, game);
+			// Player mechanics and camera movement
+			update_player(player, game);
 
-            // Monster mechanics
-            update_monster(game, player);
+			// Monster mechanics
+			update_monster(game, player);
 
-            // Bullet mechanics
-            update_bullet(player);
+			// Bullet mechanics
+			update_bullet(player);
 
-            // Loot mechanics
-            update_loot(player, game);
+			// Loot mechanics
+			update_loot(player, game);
 
-            load_game(game, player, monster, bullet);
+			load_game(game, player, monster, bullet);
 
-            // Check if game over condition is met
-            if (player.health <= 0) {
-                game_over = true;
-            }
-        } else {
-            // Restart the game
-            if (key_typed(R_KEY)) { 
-                game_over = false;
-                player = new_player();
-                game.monsters.clear();
+			// Check if game over condition is met
+			if (player.health <= 0) {
+				game_over = true;
+			}
+		} else {
+			// Restart the game
+			if (key_typed(R_KEY)) { 
+				game_over = false;
+				player = new_player();
+				game.monsters.clear();
 				player.bullets.clear();
-                game.loots.clear();
-            }
-        }
+				game.loots.clear();
+			}
+		}
 
-        refresh_screen(60);
-    }
+		refresh_screen(60);
+	}
 
-    return 0;
+	return 0;
 }

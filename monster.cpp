@@ -34,7 +34,6 @@ monster new_monster(game &game) {
 	monster.type = PIG;
 	monster.x = monster_direction;
 	monster.y = screen_height() / 1.5 - sprite_height(monster.monster_sprite);
-	monster.on_ground = true;
 	monster.health = 3;
 
 	sprite_set_x(monster.monster_sprite, monster.x);
@@ -78,8 +77,8 @@ void update_monster(game &game, player &player) {
 			}
 		}
 
-        for (int j = 0; j < player.bullets.size(); j++) {
-            bullet &bullet = player.bullets[j];
+		for (int j = 0; j < player.bullets.size(); j++) {
+			bullet &bullet = player.bullets[j];
 			if (sprite_collision(bullet.bullet_sprite, monster.monster_sprite)) {
 				monster.health -= 1;
 				player.bullets[j] = player.bullets.back();

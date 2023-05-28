@@ -31,9 +31,9 @@ loot new_loot(float x) {
 }
 
 void draw_loot(const game &game) {
-    for (const loot &loot : game.loots) {
-        draw_sprite(loot.loot_sprite);
-    }
+	for (const loot &loot : game.loots) {
+		draw_sprite(loot.loot_sprite);
+	}
 }
 
 void update_loot(player &player, game &game) {
@@ -55,7 +55,7 @@ void update_loot(player &player, game &game) {
 				play_sound_effect(sound_effect_named("loot_xp"));
 			}
 			game.loots[i] = game.loots.back();
-            game.loots.pop_back();
+			game.loots.pop_back();
 		}
 	}
 }
