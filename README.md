@@ -17,7 +17,9 @@ Defeat pigs, collect coins, and level up. Aim for your best score!
 
 ## Disclaimer
 
-This is my first C++ project, so don't give any high expectation. Feel free to give suggestions to the game :D
+This is my first C++ project, so don't give any high expectation.
+<br>
+Feel free to give suggestions to the game :D
 
 ## Bugs
 
