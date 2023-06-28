@@ -1,9 +1,6 @@
 ## ChloeTheExplorer
 
 A 2D-shooter game made with C++ using SplashKit library.
-
-## Description
-
 Chloe is an explorer that shoots pigs and gains loots from them. Aim for your best score!
 
 ## Key Binds
