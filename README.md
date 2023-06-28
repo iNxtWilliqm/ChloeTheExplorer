@@ -11,7 +11,7 @@ Chloe is an explorer that shoots pigs and gains loots from them. Aim for your be
 | A | Character moves to the left |
 | D | Character moves to the right |
 | SPACEBAR | Character jumps upwards |
-| LEFT BUTTON | Character shoots a bullet |
+| LMB | Character shoots a bullet |
 
 ## Disclaimer
 
