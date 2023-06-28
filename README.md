@@ -10,10 +10,10 @@ Defeat pigs, collect coins, and level up. Aim for your best score!
 
 | Key | Action |
 |-|-|
-| A | Character moves to the left |
-| D | Character moves to the right |
-| SPACEBAR | Character jumps upwards |
-| LMB | Character shoots a bullet |
+| A | Moves to the left |
+| D | Moves to the right |
+| SPACEBAR | Jumps upwards |
+| LMB | Shoots a bullet |
 
 ## Disclaimer
 
