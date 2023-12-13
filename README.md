@@ -17,7 +17,8 @@ Defeat pigs, collect coins, and level up. Aim for your best score!
 
 ## Disclaimer
 
-This is my first C++ project, so don't give any high expectation.
+This is my first C++ school project, so don't give any high expectation.
+Unit code: SIT120
 <br>
 Feel free to give suggestions to the game :D
 
