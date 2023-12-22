@@ -21,6 +21,10 @@ This is my first C++ school project (SIT120), so don't give any high expectation
 <br>
 Feel free to give suggestions to the game :D
 
+## Result
+
+High Distinction
+
 ## Bugs
 
 Report on [Github](https://github.com/iNxtWilliqm/ChloeTheExplorer/issues/new) if you find any bugs.
