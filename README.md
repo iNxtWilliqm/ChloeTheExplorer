@@ -21,7 +21,7 @@ This is my first C++ school project (SIT102), so don't give any high expectation
 <br>
 Feel free to give suggestions to the game :D
 
-## Result
+## Grade
 
 High Distinction
 
