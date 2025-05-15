@@ -30,11 +30,10 @@ cd /c/Users/...
 ./CustomProgram
 ```
 
-> [!NOTE]
-This is my first C++ school project (SIT102), so don't give any high expectation. Feel free to give suggestions to the game :D
-
 ## Grade
 High Distinction
+> [!NOTE]
+This is my first C++ school project (SIT102), so don't give any high expectation. Feel free to give suggestions to the game :D
 
 ## Bugs
 Report on [Github](https://github.com/iNxtWilliqm/ChloeTheExplorer/issues/new) if you find any bugs.
